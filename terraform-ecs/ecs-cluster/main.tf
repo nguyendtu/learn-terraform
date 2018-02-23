@@ -2,7 +2,7 @@
 # CREATE AN ECS CLUSTER
 # ---------------------------------------------------------------------------------------------------------------------
 
-resource "aws_ecs_cluster" "example_cluster" {
+resource "aws_ecs_cluster" "cluster" {
   name = "cluster-${var.name}"
 }
 

@@ -1,5 +1,5 @@
 output "ecs_cluster_id" {
-  value = "${aws_ecs_cluster.example_cluster.id}"
+  value = "${aws_ecs_cluster.cluster.id}"
 }
 
 output "security_group_id" {
